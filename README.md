@@ -497,21 +497,11 @@ This project demonstrates enterprise-level healthcare software development. Cont
 - **Cloud Optimization**: Enhanced multi-cloud and serverless capabilities
 - **Security Features**: Advanced threat detection and compliance automation
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**Important**: This is a demonstration project showcasing enterprise healthcare software development capabilities. For production healthcare applications, ensure compliance with all applicable regulations including HIPAA, GDPR, and local healthcare data protection laws.
-
----
-
-**Built specifically for Oracle Health opportunities** - Demonstrating enterprise Java development expertise, healthcare domain knowledge, vector database proficiency, big data processing capabilities, and cloud-native architecture skills that directly align with Oracle Health's technical requirements and healthcare mission.
-
 ## 📞 Contact
 
 **Shibam Samaddar**  
-Senior Java Developer | Healthcare Technology Specialist  
-📧 Email: [your-email@example.com]  
+Senior Java Developer  
+📧 Email:shibamsamaddar1999@gmail.com    
 💼 LinkedIn: [linkedin.com/in/shibam-samaddar]  
 🐙 GitHub: [github.com/shibam-max]
 
