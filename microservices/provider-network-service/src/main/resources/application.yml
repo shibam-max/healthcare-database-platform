@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: provider-network-service
+  
+  # PostgreSQL for provider credentials
+  datasource:
+    url: jdbc:postgresql://localhost:5432/healthcare_semantic_db
+    username: healthcare_admin
+    password: healthcare_secure_2024
+  
+  # MongoDB for flexible provider data
+  data:
+    mongodb:
+      uri: mongodb://admin:admin123@localhost:27017/healthcare_docs?authSource=admin
+    
+    # Redis for caching
+    redis:
+      host: localhost
+      port: 6379
+      password: redis123
+  
+  # WebFlux configuration
+  webflux:
+    base-path: /api/v1
+
+# gRPC configuration
+grpc:
+  server:
+    port: 9090
+
+server:
+  port: 8084

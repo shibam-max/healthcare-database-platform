@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: healthcare-api-gateway
+  
+  cloud:
+    gateway:
+      routes:
+        - id: patient-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/v1/patients/**
+          filters:
+            - StripPrefix=0
+        - id: semantic-search-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/v1/semantic/**
+        - id: analytics-service
+          uri: http://localhost:8083
+          predicates:
+            - Path=/api/v1/analytics/**
+
+server:
+  port: 8080

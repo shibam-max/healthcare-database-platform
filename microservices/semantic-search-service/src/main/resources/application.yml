@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: semantic-search-service
+  
+  datasource:
+    url: jdbc:postgresql://localhost:5432/healthcare_semantic_db
+    username: healthcare_admin
+    password: healthcare_secure_2024
+  
+  ai:
+    vectorstore:
+      pgvector:
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+
+server:
+  port: 8082

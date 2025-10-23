@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: healthcare-analytics-service
+  
+  elasticsearch:
+    uris: http://localhost:9200
+  
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: healthcare-analytics
+
+server:
+  port: 8083
