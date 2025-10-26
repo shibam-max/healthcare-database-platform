@@ -1,6 +1,6 @@
 # Healthcare Semantic Database Platform
 
-> 🏥 **Enterprise Healthcare Semantic Database Platform built from scratch with Java 23, Spring Boot 3.4.1, Vector Database, Big Data technologies, and AWS cloud-native architecture. Specifically designed to showcase Oracle Health technical expertise.**
+> 🏥 **Enterprise Healthcare Semantic Database Platform built from scratch with Java 23, Spring Boot 3.4.1, Vector Database, Big Data technologies, and AWS cloud-native architecture.**
 
 [![Java](https://img.shields.io/badge/Java-23-orange?style=flat-square)](https://openjdk.java.net/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.1-green?style=flat-square)](https://spring.io/projects/spring-boot)
@@ -8,10 +8,6 @@
 [![Big Data](https://img.shields.io/badge/Big%20Data-Kafka%20%7C%20Spark-red?style=flat-square)](https://kafka.apache.org/)
 [![AWS](https://img.shields.io/badge/AWS-Cloud%20Native-orange?style=flat-square)](https://aws.amazon.com/)
 [![Performance](https://img.shields.io/badge/JVM-Performance%20Tuned-blue?style=flat-square)](#jvm-performance)
-
-## 🎯 Oracle Health Technical Alignment
-
-This platform demonstrates **every technical requirement** mentioned in the Oracle Health job description:
 
 ### ✅ **Java & Spring Boot Expertise**
 - **Java 23** - Latest features with performance optimizations
